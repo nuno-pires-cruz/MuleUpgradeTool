@@ -1,0 +1,158 @@
+{
+  "ReplaceProperties": [
+    {
+      "Key": "app.runtime",
+      "Value": "4.9.0"
+    },
+    {
+      "Key": "mule.maven.plugin.version",
+      "Value": "4.3.0"
+    },
+    {
+      "Key": "munit.version",
+      "Value": "3.4.0"
+    }
+  ],
+  "ReplaceDependencies": [
+    {
+      "Key": "mule-error-handler",
+      "Value": "    <groupId>e571664f-efac-4062-8354-117d2c9c30d4</groupId>\r\n    <artifactId>mule-error-handler-custom</artifactId>\r\n    <version>1.0.1</version>\r\n    <classifier>custom</classifier>"
+    },
+    {
+      "Key": "init-flow",
+      "Value": "    <groupId>e571664f-efac-4062-8354-117d2c9c30d4</groupId>\r\n    <artifactId>init-flow-custom</artifactId>\r\n    <version>1.0.1</version>\r\n    <classifier>custom</classifier>"
+    },
+    {
+      "Key": "mule-logger",
+      "Value": "    <groupId>e571664f-efac-4062-8354-117d2c9c30d4</groupId>\r\n    <artifactId>mule-logger-plugin</artifactId>\r\n    <version>1.0.0</version>\r\n    <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "gateway-proxy-domain",
+      "Value": "    <groupId>com.mulesoft.anypoint</groupId>\r\n    <artifactId>fidelidade-domain</artifactId>\r\n    <version>1.0.0</version>\r\n    <classifier>mule-domain</classifier>\r\n    <scope>provided</scope>"
+    },
+    {
+      "Key": "mule-soap-fault-handler",
+      "Value": "    <groupId>e571664f-efac-4062-8354-117d2c9c30d4</groupId>\r\n    <artifactId>mule-soap-fault-handler-custom</artifactId>\r\n    <version>1.0.0</version>\r\n    <classifier>custom</classifier>"
+    },
+    {
+      "Key": "fid-sap-connector",
+      "Value": "  <groupId>e571664f-efac-4062-8354-117d2c9c30d4</groupId>\r\n  <artifactId>fid-sap-connector-plugin</artifactId>\r\n  <version>1.0.0</version>\r\n  <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "sybase-db",
+      "Value": "  <groupId>e571664f-efac-4062-8354-117d2c9c30d4</groupId>\r\n  <artifactId>sybase-db-plugin</artifactId>\r\n  <version>1.0.0</version>\r\n  <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "munit-tools",
+      "Value": "    <groupId>com.mulesoft.munit</groupId>\r\n    <artifactId>munit-tools</artifactId>\r\n    <version>${munit.version}</version>\r\n    <classifier>mule-plugin</classifier>\r\n    <scope>test</scope>"
+    },
+    {
+      "Key": "munit-runner",
+      "Value": "    <groupId>com.mulesoft.munit</groupId>\r\n    <artifactId>munit-runner</artifactId>\r\n    <version>${munit.version}</version>\r\n    <classifier>mule-plugin</classifier>\r\n    <scope>test</scope>"
+    },
+    {
+      "Key": "mule-apikit-module",
+      "Value": "    <groupId>org.mule.modules</groupId>\r\n    <artifactId>mule-apikit-module</artifactId>\r\n    <version>1.11.6</version>\r\n    <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "mule-soapkit-module",
+      "Value": "    <groupId>org.mule.modules</groupId>\r\n    <artifactId>mule-soapkit-module</artifactId>\r\n    <version>1.6.1</version>\r\n    <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "mule-xml-module",
+      "Value": "    <groupId>org.mule.modules</groupId>\r\n    <artifactId>mule-xml-module</artifactId>\r\n    <version>1.4.2</version>\r\n    <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "mule-objectstore-connector",
+      "Value": "    <groupId>org.mule.connectors</groupId>\r\n    <artifactId>mule-objectstore-connector</artifactId>\r\n    <version>1.2.2</version>\r\n    <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "mule-db-connector",
+      "Value": "    <groupId>org.mule.connectors</groupId>\r\n    <artifactId>mule-db-connector</artifactId>\r\n    <version>1.14.15</version>\r\n    <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "mule-vm-connector",
+      "Value": "    <groupId>org.mule.connectors</groupId>\r\n    <artifactId>mule-vm-connector</artifactId>\r\n    <version>2.0.1</version>\r\n    <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "mule-secure-configuration-property-module",
+      "Value": "    <groupId>com.mulesoft.modules</groupId>\r\n    <artifactId>mule-secure-configuration-property-module</artifactId>\r\n    <version>1.2.7</version>\r\n    <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "assertions",
+      "Value": "    <groupId>org.mule.weave</groupId>          \r\n    <artifactId>assertions</artifactId>        \r\n    <version>1.2.1</version>           \r\n    <scope>test</scope> "
+    },
+    {
+      "Key": "mule-java-module",
+      "Value": "    <groupId>org.mule.module</groupId>\r\n    <artifactId>mule-java-module</artifactId>\r\n    <version>1.2.14</version>\r\n    <classifier>mule-plugin</classifier>"
+    },
+    {
+      "Key": "mule-sockets-connector",
+      "Value": "  <groupId>org.mule.connectors</groupId>\r\n  <artifactId>mule-sockets-connector</artifactId>\r\n  <version>1.2.5</version>\r\n  <classifier>mule-plugin</classifier>"
+    }
+  ],
+  "DeleteDependencies": [
+    {
+      "Key": "mule-http-connector",
+      "Value": ""
+    }
+  ],
+  "ReplaceRepositories": [
+    {
+      "Key": "anypoint-exchange-v3",
+      "Value": "           <id>anypoint-exchange-v3</id>\r\n           <name>Anypoint Exchange V3</name>\r\n           <url>https://maven.eu1.anypoint.mulesoft.com/api/v3/maven</url>\r\n           <layout>default</layout>"
+    }
+  ],
+  "ReplaceDataWeaveExpressions": [
+    {
+      "Key": "keySet",
+      "Value": "keysOf"
+    },
+    {
+      "Key": "error.muleMessage",
+      "Value": "error.errorMessage"
+    },
+    {
+      "Key": "error.muleMessage.typedValue",
+      "Value": "error.errorMessage.payload"
+    },
+    {
+      "Key": "error.muleMessage.typedAttributes",
+      "Value": "error.errorMessage.attributes"
+    },
+    {
+      "Key": "error.errors",
+      "Value": "error.childErrors"
+    },
+    {
+      "Key": "error.errorType",
+      "Value": "error.errorType.namespace ++ \":\" ++ error.errorType.identifier"
+    }
+  ],
+  "ReplacePolicies": [
+    {
+      "Key": "client-id-enforcement",
+      "Value": "1.3.2"
+    },
+    {
+      "Key": "ResourceAccessByClientIDPolicy",
+      "Value": "2.0.1"
+    },
+    {
+      "Key": "solution-mapping-policy",
+      "Value": "2.0.2"
+    },
+    {
+      "Key": "rate-limiting-sla-based",
+      "Value": "1.3.0"
+    },
+    {
+      "Key": "rate-limiting",
+      "Value": "1.4.0"
+    },
+    {
+      "Key": "CrossOriginResourceSharing",
+      "Value": "1.3.1"
+    }
+  ]
+}
